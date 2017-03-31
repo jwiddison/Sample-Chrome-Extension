@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
-  "version": "1.0",
+  "name": "Seth Quotes",
+  "description": "This extension shows an inspirational quote from Seth",
+  "version": "0.0.1",
   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
 
   "browser_action": {
