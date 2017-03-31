@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  alert('Hey');
-
-  
-
+  var x = $.getJSON('https://sethquotesapi.herokuapp.com/quotes/2');
+  alert(x)
 });
