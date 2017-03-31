@@ -11,6 +11,8 @@
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com/",
+    "https://*.herokuapp.com/*",
+    "https://code.jquery.com/jquery-3.2.1.min.js"
   ]
 }
