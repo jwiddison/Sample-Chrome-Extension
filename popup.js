@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    var id = Math.floor((Math.random() * 50) + 1);
-    $.ajax({url: "https://sethquotesapi.herokuapp.com/quotes/" + id}).then(function(data) {
-       $('.quote').text('"' + data.text + '"');
+    $.ajax({url: "https://sethquotesapi.herokuapp.com/random_quote"}).then(function(data) {
+       $('#quote').text('"' + data.text + '"');
+       $('#name').text(data.first_name);
+       $('#image').attr("src", data.url);
     });
 });
